@@ -32,10 +32,63 @@ header {
     height: 100px;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 header img {
     margin: 2rem;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .mainMenu {
+    width: 80%;
+    height: 150px;
+    border: solid 1px black;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    display: none;
+    left: 50px;
+    bottom: -200px;
+    border: 3rem;
+}
+
+.mainMenu.toggleCls {
+    display: block;
+}
+
+.close {
+    display: none;
+}
+
+.close.toggleCls {
+    display: block;
+}
+
+.himCon {
+    display: block;
+}
+
+.himCon.toggleCls {
+    display: none;
+}
+
+header .mainMenu li {
+    list-style-type: none;
+    align-content: center;
+    height: 3rem;
+}
+
+header .mainMenu li a {
+    color: var(--dark-Blue);
+    text-decoration: none;
 }
 
 .mockups {
