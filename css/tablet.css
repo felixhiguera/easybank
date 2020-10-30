@@ -1,0 +1,188 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.himCon {
+    display: none;
+}
+
+header .mainMenu {
+    display: flex;
+    position: relative;
+    height: auto;
+    justify-content: space-between;
+    font-size: 2rem;
+    width: 40rem;
+    top: 5px;
+    left: -400px;
+}
+
+.mockups {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+    grid-template-areas: "text image";
+    margin: 2rem auto;
+}
+
+.mockups .mockups-text {
+    grid-area: text;
+    padding: 2rem;
+}
+
+.mockups .mockups-text .header {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.mockups .mockups-image {
+    grid-area: image;
+    background-image: url('../images/bg-intro-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.mockups .mockups-image img {
+    width: 60%;
+    height: 60%;
+}
+
+.mockups .mockups-button {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    width: 20%;
+}
+
+.reasons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: " main main main main" "online simple fast open";
+}
+
+.main-reason {
+    grid-area: main;
+}
+
+.reason--online {
+    grid-area: online;
+}
+
+.reason--simple {
+    grid-area: simple;
+}
+
+.reason--fast {
+    grid-area: fast;
+}
+
+.reason--open {
+    grid-area: open;
+}
+
+.article-title .title {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "title title title title" "currency restaurant plane confetti";
+    grid-gap: 15px;
+}
+
+.articles .article-title {
+    grid-area: title;
+}
+
+.articles .article-currency {
+    grid-area: currency;
+}
+
+.articles .article-restaurant {
+    grid-area: restaurant;
+}
+
+.articles .article-plane {
+    grid-area: plane;
+}
+
+.articles .article-confetti {
+    grid-area: confetti;
+}
+
+footer {
+    height: 40%;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: .5fr .5fr .5fr;
+    grid-template-areas: "logo about carrers requested" ". contact support request" "icons blog privacy easybank";
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-container h3 {
+    font-size: 1.4rem;
+}
+
+.footer-container .footer-logo {
+    grid-area: logo;
+}
+
+.footer-container .footer-about {
+    grid-area: about;
+}
+
+.footer-container .footer-carrers {
+    grid-area: carrers;
+}
+
+.footer-container .footer-request {
+    grid-area: request;
+}
+
+.footer-container .footer-request button {
+    width: 50%;
+    align-self: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container .footer-contact {
+    grid-area: contact;
+}
+
+.footer-container .footer-support {
+    grid-area: support;
+}
+
+.footer-container .footer-icons {
+    grid-area: icons;
+}
+
+.footer-container .footer-blog {
+    grid-area: blog;
+}
+
+.footer-container .footer-privacy {
+    grid-area: privacy;
+}
+
+.footer-container .footer-easybank {
+    grid-area: easybank;
+}

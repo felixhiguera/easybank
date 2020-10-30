@@ -7,30 +7,22 @@
     <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css" media="(min-width:956px)">
+
     <title> Easybank landing page</title>
 
 
 </head>
 
 <body>
-
-    <!-- Home
-  About
-  Contact
-  Blog
-  Careers
-
-  Request Invite -->
-
     <header>
         <img src="images/logo.svg" alt="">
         <div>
             <img src="images/icon-hamburger.svg" class="himCon" alt="">
             <img src="images/icon-close.svg" class="close" alt="">
         </div>
-
         <nav>
             <ul class="mainMenu">
                 <li><a href="">Home</a></li>
@@ -40,6 +32,9 @@
                 <li><a href="">Carrers</a></li>
             </ul>
         </nav>
+
+
+
     </header>
     <main>
         <section class="mockups">
@@ -49,7 +44,7 @@
             <div class="mockups-text">
                 <h1 class="header">Next generation digital banking</h1>
                 <p class="paragraph">Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
-                <button>Request invite</button>
+                <button class="mockups-button">Request invite</button>
             </div>
         </section>
         <section class="reasons">
@@ -80,10 +75,11 @@
                 <p class="paragraph">Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.</p>
             </div>
         </section>
+        <div class="article-title">
+            <h2 class="title">Latest articles</h2>
+        </div>
         <section class="articles">
-            <div class="article-title">
-                <h2>Latest articles</h2>
-            </div>
+
             <div class="article-currency article-format">
                 <img class="article-image" src="images/image-currency.jpg" alt="">
                 <div class="article-text">
@@ -125,7 +121,13 @@
             <div class="footer-logo footer-item-format">
                 <img src="images/logo.svg" alt="">
             </div>
-            <div class="footer-icons footer-item-format"></div>
+            <div class="footer-icons footer-item-format">
+                <img src="images/icon-facebook.svg" alt="">
+                <img src="images/icon-youtube.svg" alt="">
+                <img src="images/icon-twitter.svg" alt="">
+                <img src="images/icon-pinterest.svg" alt="">
+                <img src="images/icon-twitter.svg" alt="">
+            </div>
             <div class="footer-about footer-item-format">
                 <h3>About Us</h3>
             </div>
@@ -145,11 +147,12 @@
                 <h3>Privacy Policy</h3>
             </div>
             <div class="footer-request footer-item-format">
-                <h3>Request Invite</h3>
-            </div>
-            <div class="footer-easybank footer-item-format">
                 <button>Request invite</button>
             </div>
+            <div class="footer-easybank footer-item-format">
+                <h3>Easybank.All rights Reserved.</h3>
+            </div>
+
         </div>
     </footer>
 

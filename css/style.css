@@ -56,7 +56,7 @@ header .mainMenu {
     text-align: center;
     display: none;
     left: 50px;
-    bottom: -200px;
+    bottom: -160px;
     border: 3rem;
 }
 
@@ -126,6 +126,7 @@ header .mainMenu li a {
 
 .mockups-text .header {
     font-size: 1.8rem;
+    color: var(--dark-Blue);
 }
 
 main section .header {
