@@ -131,6 +131,7 @@ footer {
     height: 80%;
     align-items: center;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 .footer-container h3 {
@@ -185,4 +186,16 @@ footer {
 
 .footer-container .footer-easybank {
     grid-area: easybank;
+}
+
+main .paragraph {
+    font-size: 1.4rem;
+}
+
+.articles .article-format .article-text p {
+    font-size: 1.2rem;
+}
+
+.articles .article-format .article-text caption {
+    font-size: 1rem;
 }
